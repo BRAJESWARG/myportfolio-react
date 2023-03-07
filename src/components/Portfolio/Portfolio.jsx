@@ -26,33 +26,33 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://emi-calculator-brajeswar.netlify.app/" target="_blank" rel="noopener">
-            <img src={EMICalculator} alt="EMI Calculator Image" />
+          <a href="https://emi-calculator-brajeswar.netlify.app/" target="_blank" rel="noreferrer">
+            <img src={EMICalculator} alt="EMI Calculator" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://brajeswarg.github.io/CSS_TodoAPPUI_Mobile/" target="_blank" rel="noopener">
+          <a href="https://brajeswarg.github.io/CSS_TodoAPPUI_Mobile/" target="_blank" rel="noreferrer">
             <img src={ToDo} alt="To Do List" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://brajeswarg.github.io/TodoAPPUI-V2/" target="_blank" rel="noopener">
+          <a href="https://brajeswarg.github.io/TodoAPPUI-V2/" target="_blank" rel="noreferrer">
             <img src={ToDoV2} alt="To Do V2 List" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://brajeswarg.github.io/css_assignment_5/" target="_blank" rel="noopener">
-            <img src={IndependenceDay} alt="Independence Day Image" />
+          <a href="https://brajeswarg.github.io/css_assignment_5/" target="_blank" rel="noreferrer">
+            <img src={IndependenceDay} alt="Independence Day" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://brajeswarg.github.io/css_assignment_6/" target="_blank" rel="noopener">
-            <img src={Sahara} alt="Sahara Image" />
+          <a href="https://brajeswarg.github.io/css_assignment_6/" target="_blank" rel="noreferrer">
+            <img src={Sahara} alt="Sahara" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://brajeswarg.github.io/BACKTRACKING/" target="_blank" rel="noopener">
-            <img src={Backtracking} alt="Backtracking Image" />
+          <a href="https://brajeswarg.github.io/BACKTRACKING/" target="_blank" rel="noreferrer">
+            <img src={Backtracking} alt="Backtracking" />
           </a>
         </SwiperSlide>
       </Swiper>

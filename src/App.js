@@ -10,7 +10,6 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
-import HomeCarousel from "./components/HomeCarousel/HomeCarousel";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -28,9 +27,6 @@ function App() {
       <Experience />
       <Works />
       <Portfolio />
-      {
-        // <HomeCarousel />
-      }
       <Testimonial />
       <Contact />
       <Footer />
