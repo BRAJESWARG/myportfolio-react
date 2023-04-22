@@ -2,7 +2,11 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
+import ReactBlog from "../../img/react-blog.png";
+import ProjectManagementLandingPage from "../../img/project-management-landing-page.png";
 import EMICalculator from "../../img/EMICalculator.png";
+import TestimonialCarousel from "../../img/testimonial-carousel.png";
+import TestimonialSlider from "../../img/testimonial-slider.png";
 import Backtracking from "../../img/backtracking.png";
 import IndependenceDay from "../../img/IndependenceDay.png";
 import Sahara from "../../img/sahara.png";
@@ -26,8 +30,27 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <a href="https://react-blog-thesiren.netlify.app/" target="_blank" rel="noreferrer">
+            <img src={ReactBlog} alt="EMI Calculator" />
+          </a>
+        </SwiperSlide><SwiperSlide>
+          <a href="https://bghoshproject-management-landing-page.netlify.app/" target="_blank" rel="noreferrer">
+            <img src={ProjectManagementLandingPage} alt="EMI Calculator" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
           <a href="https://emi-calculator-brajeswar.netlify.app/" target="_blank" rel="noreferrer">
             <img src={EMICalculator} alt="EMI Calculator" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://brajeswar-ghosh-testimonial-carousel.netlify.app/" target="_blank" rel="noreferrer">
+            <img src={TestimonialCarousel} alt="EMI Calculator" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://brajeswar-ghosh-testimonial-slider.netlify.app/" target="_blank" rel="noreferrer">
+            <img src={TestimonialSlider} alt="EMI Calculator" />
           </a>
         </SwiperSlide>
         <SwiperSlide>

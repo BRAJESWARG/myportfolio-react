@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Brajeswar_ReactJS_1Y_Immediate from './Brajeswar_React.JS_1Y_Immediate.pdf';
 
 const Services = () => {
   // context
@@ -31,7 +31,7 @@ const Services = () => {
           <br />
           ispum is simpley dummy text of printing
         </spane>
-        <a href={Resume} download>
+        <a href={Brajeswar_ReactJS_1Y_Immediate} download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
