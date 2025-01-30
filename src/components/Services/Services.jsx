@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Brajeswar_ReactJS_1Y_Immediate from './Brajeswar_React.JS_1Y_Immediate.pdf';
+import Brajeswar_ReactJS_1Y_Immediate from './Brajeswar_QA-Test-Engineer_1.5Y.pdf';
 
 const Services = () => {
   // context
